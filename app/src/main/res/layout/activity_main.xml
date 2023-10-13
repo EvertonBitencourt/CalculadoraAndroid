@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:gravity="end"
+        android:text="0"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:rowCount="5">
+        <Button
+            style="@style/ButtonCalc"
+            android:text="C" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="AC" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="%" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="÷" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="7" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="8" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="9" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="X" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="4" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="5" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="6" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="-" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="1" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="2" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="3" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="+" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="+/-" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="0" />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="," />
+
+        <Button
+            style="@style/ButtonCalc"
+            android:text="=" />
+    </GridLayout>
+
+</LinearLayout>
