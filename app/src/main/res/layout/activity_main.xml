@@ -5,100 +5,125 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    >
 
     <TextView
         android:id="@+id/txtResultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="70sp"
+        android:textSize="160sp"
         android:gravity="end"
-        android:text="0"/>
+        android:text="0"
+        />
 
     <GridLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:columnCount="4"
-        android:rowCount="5">
-        <Button
-            style="@style/ButtonCalc"
+        android:rowCount="5"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/limpar"
+            style="@style/ButtonOp"
             android:text="C" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/limparTudo"
+            style="@style/ButtonOp"
             android:text="AC" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/porcentagem"
+            style="@style/ButtonOp"
             android:text="%" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/divisao"
+            style="@style/ButtonOp"
             android:text="÷" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/sete"
             style="@style/ButtonCalc"
             android:text="7" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/oito"
             style="@style/ButtonCalc"
             android:text="8" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nove"
             style="@style/ButtonCalc"
             android:text="9" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/multiplicacao"
+            style="@style/ButtonOp"
             android:text="X" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/quatro"
             style="@style/ButtonCalc"
             android:text="4" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/cinco"
             style="@style/ButtonCalc"
             android:text="5" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/seis"
             style="@style/ButtonCalc"
             android:text="6" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/subtracao"
+            style="@style/ButtonOp"
             android:text="-" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/um"
             style="@style/ButtonCalc"
             android:text="1" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dois"
             style="@style/ButtonCalc"
             android:text="2" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tres"
             style="@style/ButtonCalc"
             android:text="3" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/adicao"
+            style="@style/ButtonOp"
             android:text="+" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/mais_ou_menos"
+            style="@style/ButtonOp"
             android:text="+/-" />
 
-        <Button
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/zero"
             style="@style/ButtonCalc"
             android:text="0" />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/virgula"
+            style="@style/ButtonOp"
             android:text="," />
 
-        <Button
-            style="@style/ButtonCalc"
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/igual"
+            style="@style/ButtonOp"
             android:text="=" />
+
     </GridLayout>
 
 </LinearLayout>
